@@ -25,28 +25,22 @@ class HomeScreen extends StatelessWidget {
     return Scaffold(
       body: Stack(
         children: [
-          // 🖼 Imagen de fondo
           SizedBox.expand(
             child: Image.asset(
   'assets/background.jpg',
   fit: BoxFit.cover,
 ),
           ),
-
-          // 🧩 Contenido centrado (texto e icono)
           Center(
             child: Column(
               mainAxisAlignment: MainAxisAlignment.center,
               children: const [
-                // Ícono decorativo
                 Icon(
                   Icons.favorite,
                   color: Colors.pinkAccent,
                   size: 60,
                 ),
                 SizedBox(height: 16),
-
-                // Texto principal
                 Text(
                   'Hello World',
                   style: TextStyle(
@@ -63,8 +57,6 @@ class HomeScreen extends StatelessWidget {
                   ),
                 ),
                 SizedBox(height: 10),
-
-                // Nombre de la app
                 Text(
                   'Namer App',
                   style: TextStyle(
