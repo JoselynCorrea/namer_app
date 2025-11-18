@@ -32,6 +32,18 @@ migrate_working_dir/
 .pub/
 /build/
 /coverage/
+**/build/
+**/android/app/build/
+**/ios/Pods/
+**/.dart_tool/
+**/.flutter-plugins
+**/.flutter-plugins-dependencies
+**/.gradle/
+**/*.apk
+**/*.aab
+**/ios/build/
+**/android/.gradle/
+**/.idea/
 
 # Symbolication related
 app.*.symbols
